@@ -1,0 +1,50 @@
+body{
+    font-style: normal;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-image:url(https://i.pinimg.com/564x/a0/57/af/a057afe4ded4705c350f58f5be2521af.jpg);
+    background-repeat:space;
+    background-size: cover;
+    background-color: black;
+    text-align: center;
+    color: white;
+}
+h1{
+ text-shadow: black 5px 5px 5px;
+}
+.container{
+    width: auto;
+    height:min-content;
+    display: flex;
+}
+.child{
+    margin: auto;
+    text-align: center;
+    box-shadow: black 5px 5px 5px;
+    backdrop-filter: blur(2pc);
+}
+div{
+    border-radius: 20px;
+    padding: 20px;
+    animation-duration: 1s;
+    animation-name: DivAni;
+}
+button{
+    background-color: transparent;
+    color: white;
+    border-radius: 20px;
+    border: none;
+}
+button:hover{
+    background-color: white;
+    color: black;
+}
+@keyframes DivAni {
+    from{
+        opacity: 0%;
+        margin-top: 10%;
+    }
+    to{
+        opacity: 100%;
+        margin-top: 0%;
+    }
+}
